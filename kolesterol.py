@@ -232,6 +232,8 @@ elif selected == 'Menu Interaktif':
     
 if selected == 'Resep Sehat':
     st.subheader('Resep Sehat 🥗')
+    image_path = 'resep sehat.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption=' ')
     st.write('Ingin mencoba resep sehat rendah kolesterol? Lihat resep berikut ini:')
     st.write('- Salad sayur dengan dressing lemon')
     st.write('- Sosis sapi panggang dengan tumis sayuran')
