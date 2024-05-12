@@ -214,22 +214,61 @@ elif selected == 'Menu Interaktif':
     image_path = 'tes pengetahuan.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
     st.image(image_path, caption='tes pengetahuan kolesterol')
     st.write('''Yuk, tes pengetahuan tentang kolesterol akan mengasah pengetahuanmu tentang kesehatan! Ayo, kita jelajahi beberapa pertanyaan seru seputar kolesterol!''')
+    # Pertanyaan 1
     st.write('1. Apa yang dimaksud dengan kolesterol HDL?')
     answer1 = st.radio('1.', options=['A. Kolesterol Baik', 'B. Kolesterol Jelek', 'C. Kolesterol Total'])
+    # Pertanyaan 2
     st.write('2. Makanan mana yang mengandung kolesterol tinggi?')
     answer2 = st.radio('2.', options=['A. Buah-buahan', 'B. Sayuran', 'C. Daging merah'])
+    # Pertanyaan 3
     st.write('3. Bagaimana cara menurunkan kolesterol LDL?')
     answer3 = st.radio('3.', options=['A. Mengonsumsi makanan tinggi lemak', 'B. Berolahraga secara teratur', 'C. Minum minuman bersoda'])
-
+    # Pertanyaan 4
+    st.write('4. Apa yang menjadi sumber kolesterol utama dalam makanan?')
+    answer4 = st.radio('4.', options=['A. Buah-buahan', 'B. Daging', 'C. Sayuran'])
+    # Pertanyaan 5
+    st.write('5. Bagaimana cara menurunkan kolesterol secara alami?')
+    answer5 = st.radio('5.', options=['A. Mengonsumsi makanan tinggi lemak', 'B. Berolahraga secara teratur', 'C. Minum minuman bersoda'])
+    # Pertanyaan 6
+    st.write('6. Apa arti dari singkatan LDL dalam kolesterol?')
+    answer6 = st.radio('6.', options=['A. Low-Density Lipoprotein', 'B. High-Density Lipoprotein', 'C. Low-Density Liquid'])
+    # Pertanyaan 7
+    st.write('7. Mengonsumsi makanan apa yang dapat meningkatkan kolesterol HDL?')
+    answer7 = st.radio('7.', options=['A. Makanan tinggi lemak', 'B. Buah-buahan dan sayuran', 'C. Minuman beralkohol'])
+    # Pertanyaan 8
+    st.write('8. Apa dampak kolesterol tinggi bagi kesehatan jantung?')
+    answer8 = st.radio('8.', options=['A. Meningkatkan risiko penyakit jantung', 'B. Menurunkan tekanan darah', 'C. Meningkatkan fungsi jantung'])
+    # Pertanyaan 9
+    st.write('9. Apakah makanan yang mengandung serat dapat membantu menurunkan kolesterol?')
+    answer9 = st.radio('9.', options=['A. Ya', 'B. Tidak', 'C. Tergantung jenis seratnya'])
+    # Pertanyaan 10
+    st.write('10. Bagaimana cara mengecek kadar kolesterol dalam tubuh?')
+    answer10 = st.radio('10.', options=['A. Melakukan tes darah', 'B. Melakukan tes urine', 'C. Melakukan pemeriksaan mata'])
+    
     if st.button('Submit'):
         score = 0
+        # Hitung skor berdasarkan jawaban yang benar
         if answer1 == 'A. Kolesterol Baik':
             score += 1
         if answer2 == 'C. Daging merah':
             score += 1
         if answer3 == 'B. Berolahraga secara teratur':
             score += 1
-        st.write(f'Nilai Anda: {score}/3')
+        if answer4 == 'B. Daging':
+            score += 1
+        if answer5 == 'B. Berolahraga secara teratur':
+            score += 1
+        if answer6 == 'A. Low-Density Lipoprotein':
+            score += 1
+        if answer7 == 'B. Buah-buahan dan sayuran':
+            score += 1
+        if answer8 == 'A. Meningkatkan risiko penyakit jantung':
+            score += 1
+        if answer9 == 'A. Ya':
+            score += 1
+        if answer10 == 'A. Melakukan tes darah':
+            score += 1
+        st.write(f'Nilai Anda: {score}/10')
         st.balloons()
     st.markdown(
             '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
