@@ -57,7 +57,7 @@ def evaluate_risk(total_cholesterol):
         return "Risiko kolesterol tinggi."
 
 # Bagian Depan Aplikasi
-st.title('Cholesterol Calculator For Foods🥩')  
+st.title('Cholesterol Calculator For Foods🥩')
 
 st.markdown('''Cholesterol Calculator For Foods digunakan untuk menyajikan tabel makanan beserta jumlah kolesterol, menghitung kandungan kolesterol berdasarkan bobot makanan,
              serta memberikan saran makanan sehat.
@@ -66,7 +66,7 @@ st.markdown('---')
 
 # Sidebar navigation
 with st.sidebar:
-    selected = st.sidebar.selectbox('Menu', ['Perkenalan','Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Menu Singkat'])
+    selected = st.sidebar.selectbox('Menu', ['Perkenalan dan Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif'])
 
 if selected == 'Perkenalan dan Penjelasan Singkat':
     image_path = 'kerkom_7.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
@@ -79,82 +79,59 @@ if selected == 'Perkenalan dan Penjelasan Singkat':
     4. Syifa Aprilya (2320558)
     5. Zikri (2320562)''')
 
-
-st.markdown('''Cholesterol Calculator For Foods digunakan untuk menyajikan tabel makanan beserta jumlah kolesterol, menghitung kandungan kolesterol berdasarkan bobot makanan,
-             serta memberikan saran makanan sehat.
-            ☆: .｡. o(≧▽≦)o .｡.:☆''')
-st.markdown('---')
-
-
-    st.header('💡 Tahukah Anda??', divider='rainbow')
-    st.write('''
-            Bahwa sama sekali tidak ada kolesterol dalam makanan nabati apa pun, 
-            termasuk sereal, buah-buahan, sayuran, dan biji-bijian? 
-            Kolesterol hanya berasal dari makanan hewani🐓🐄''')
-    st.write('''
-                Kalkulator kolesterol adalah alat yang dapat membantu kita untuk mengetahui berapa 
-                banyak kolesterol dalam makanan yang kita makan. Dengan kalkulator kolesterol ini, 
-                kita dapat dengan cepat menentukan asupan kolesterol harian dan melacaknya. Seseorang 
-                yang berisiko terkena penyakit jantung harus menjaga konsumsi kolesterol hariannya 
-                sekitar 200 mg.''')
-
 elif selected == 'Daftar Makanan':
     st.header('🧀🍖Daftar Makanan🍔🥚')
     st.markdown(
-            '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
-            unsafe_allow_html=True
-        )
+        '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
+        unsafe_allow_html=True
+    )
     st.markdown('''Menu ini menyajikan daftar makanan beserta jumlah kolesterolnya setiap bobot per 100 gram dalam satuan mg. Tabel Makanan ini berfungsi untuk memberikan informasi
              kepada pengguna tentang berapa jumlah kolesterol dalam bahan pangan, ini disajikan dalam bobot per 100 gram makanan.
              Untuk mengetahui jumlah kolesterol dalam bobot makanan yang kalian inginkan, silahkan klik menu perhitungan kolesterol ya!!''')
     jenis_makanan = st.selectbox("Pilih Bahan Pangan:", ["Daging dan Unggas", "Ikan", "Susu dan Telur", "Makanan Lainnya"])
     if jenis_makanan == "Daging dan Unggas":
         st.markdown('''
-                | Nama Makanan |Jumlah Kolesterol (mg)|
-                |--------------|----------------------|
-                |Daging Kambing|71                    |
-                |Daging Sapi   |70                    |
-                |Daging Ayam   |63                    |
-                |Daging Bebek  |65                    |
-                |Daging Babi   |80                    |
-                |Daging Anjing |44,4                  |
-                |Daging Kalkun |77                    |
-                |Daging Unta   |61                    |
-                  ''')  
+            | Nama Makanan |Jumlah Kolesterol (mg)|
+            |--------------|----------------------|
+            |Daging Kambing|71                    |
+            |Daging Sapi   |70                    |
+            |Daging Ayam   |63                    |
+            |Daging Bebek  |65                    |
+            |Daging Babi   |80                    |
+            |Daging Anjing |44,4                  |
+            |Daging Kalkun |77                    |
+            |Daging Unta   |61                    |''')
     if jenis_makanan == "Ikan":
         st.markdown('''
-                | Nama Makanan |Jumlah Kolesterol (mg)|
-                |--------------|----------------------|
-                |Ikan Tuna     |45                    |
-                |Ikan Salmon   |48                    |
-                |Ikan Lele     |60                    |
-                |Ikan Mujair   |55                    |
-                |Ikan Tongkol  |60                    |
-                |Ikan Gurame   |66                    |
-                |Ikan Patin    |39                    |         
-                ''')
+            | Nama Makanan |Jumlah Kolesterol (mg)|
+            |--------------|----------------------|
+            |Ikan Tuna     |45                    |
+            |Ikan Salmon   |48                    |
+            |Ikan Lele     |60                    |
+            |Ikan Mujair   |55                    |
+            |Ikan Tongkol  |60                    |
+            |Ikan Gurame   |66                    |
+            |Ikan Patin    |39                    |''')
     if jenis_makanan == "Susu dan Telur":
         st.markdown('''
-                | Nama Makanan |Jumlah Kolesterol (mg)|
-                |--------------|----------------------|
-                |Susu Sapi     |250                   |
-                |Telur         |155                   |
-                |Mentega       |215                   |
-                |Yoghurt       |45                    |
-                |Kuning Telur  |550                   |
-                |Keju          |140                   |        
-                ''')
+            | Nama Makanan |Jumlah Kolesterol (mg)|
+            |--------------|----------------------|
+            |Susu Sapi     |250                   |
+            |Telur         |155                   |
+            |Mentega       |215                   |
+            |Yoghurt       |45                    |
+            |Kuning Telur  |550                   |
+            |Keju          |140                   |''')
     if jenis_makanan == "Makanan Lainnya":
         st.markdown('''
-                | Nama Makanan |Jumlah Kolesterol (mg)|
-                |--------------|----------------------|
-                |Sosis Daging  |150                   |
-                |Hamburger     |47                    |
-                |Seblak        |121                   |
-                |Bakso         |74                    |
-                |Kebab         |79                    |
-                |Coklat        |290                   |        
-                ''')    
+            | Nama Makanan |Jumlah Kolesterol (mg)|
+            |--------------|----------------------|
+            |Sosis Daging  |150                   |
+            |Hamburger     |47                    |
+            |Seblak        |121                   |
+            |Bakso         |74                    |
+            |Kebab         |79                    |
+            |Coklat        |290                   |''')
 
 elif selected == 'Perhitungan Kolesterol':
     st.header('Perhitungan Kolesterol Dalam Makanan🧮🍳', divider='red')
@@ -194,7 +171,6 @@ elif selected == 'Perhitungan Kolesterol':
                 st.write("- Aktivitas fisik adalah kunci! Cobalah berjalan kaki atau berenang untuk memulai.")
                 st.write("- Jika perlu, temui dokter untuk rencana pengelolaan yang lebih spesifik.")
 
-
 elif selected == 'Menu Interaktif':
     st.header('Menu Interaktif 🍽', divider='blue')
 
@@ -218,22 +194,22 @@ elif selected == 'Menu Interaktif':
         st.write(f'Nilai Anda: {score}/3')
         st.balloons()
     st.markdown(
-            '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
-            unsafe_allow_html=True
-        )
-    
+        '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
+        unsafe_allow_html=True
+    )
+
     st.subheader('Resep Sehat 🥗')
     st.write('Ingin mencoba resep sehat rendah kolesterol? Lihat resep berikut ini:')
     st.write('- Salad sayur dengan dressing lemon')
     st.write('- Sosis sapi panggang dengan tumis sayuran')
-    st.write('- Smoothie buah-buahan segar dengan yogurt rendah lemak') 
+    st.write('- Smoothie buah-buahan segar dengan yogurt rendah lemak')
     st.write('- Oatmeal dengan potongan buah-buahan segar dan madu')
     st.write('- Tumis sayuran beragam dengan tambahan bawang putih dan rempah-rempah')
     st.write('- Sup ayam rendah lemak dengan sayuran')
     st.write('- Tahu goreng dengan tambahan saus sambal dan irisan mentimun')
     st.write('- Nasi merah dengan lauk ikan panggang dan sayuran rebus')
     st.write('- Quinoa salad dengan potongan alpukat dan tomat cherry')
-    st.write('- Smoothie bayam dengan tambahan buah-buahan segar dan yogurt rendah lemak') 
+    st.write('- Smoothie bayam dengan tambahan buah-buahan segar dan yogurt rendah lemak')
     st.write('- Brokoli panggang dengan taburan parmesan dan irisan bawang merah')
     st.write('- Nasi goreng sayuran dengan tambahan telur mata sapi')
     st.write('- Sandwich gandum dengan potongan daging ayam rebus dan sayuran segar')
