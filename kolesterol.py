@@ -70,11 +70,16 @@ with st.sidebar:
 if selected == 'Perkenalan Kelompok':
     st.header('KELOMPOK 7 (1E-PMIP):')
     st.write('''
+    Kelompok 7 merupakan tim yang terdiri dari lima mahasiswa yang berkolaborasi untuk mengembangkan aplikasi ini. Berikut adalah anggota tim beserta NIM masing-masing:
+    
     1. Kalisa Khatelya (2320532)
     2. Nayla Shafa Aulia (2320541)
     3. Selvi Wardayanti (2320555)
     4. Syifa Aprilya (2320558)
-    5. Zikri (2320562)''')
+    5. Zikri (2320562)
+    
+    Kami berharap aplikasi ini dapat bermanfaat bagi pengguna dalam memahami dan mengelola asupan kolesterol mereka untuk mendukung gaya hidup sehat. Terima kasih atas dukungannya!
+    ''')
 
 
 if selected == 'Penjelasan Singkat':
