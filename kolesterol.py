@@ -325,6 +325,7 @@ if selected == 'Resep Sehat':
             - Campurkan biji chia, susu almond, dan madu dalam sebuah mangkuk. Aduk rata dan biarkan selama 10 menit.
             - Aduk kembali campuran tersebut dan biarkan dalam lemari es semalaman atau minimal 4 jam.
             - Sebelum disajikan, tambahkan potongan buah-buahan di atas puding chia.
+            
             4. Sup Sayur Bayam
             Bahan:
             - 200 gram bayam segar
@@ -333,10 +334,12 @@ if selected == 'Resep Sehat':
             - 1 liter kaldu sayuran
             - 2 siung bawang putih, cincang halus
             Garam dan merica secukupnya
+            
             Cara membuat:
             - Rebus kaldu sayuran hingga mendidih.
             - Tambahkan wortel, seledri, dan bayam. Masak hingga sayuran matang.
             - Bumbui dengan garam dan merica sesuai selera.
+            
             5. Tofu Stir-fry
             Bahan:
             - 200 gram tahu, potong dadu
@@ -346,10 +349,12 @@ if selected == 'Resep Sehat':
             - 2 sendok makan saus tiram
             - 1 sendok makan kecap manis
             Minyak sayur secukupnya untuk menumis
+            
             Cara membuat:
             - Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
             - Masukkan wortel, paprika, dan kacang polong. Tumis hingga sayuran setengah matang.
             - Tambahkan tahu dan saus tiram. Masak hingga semua bahan tercampur rata.
+            
             6. Salad Sayur Segar
             Bahan:
             - 1 wortel, potong julienne
@@ -358,10 +363,12 @@ if selected == 'Resep Sehat':
             - 50 gram kacang polong
             - 1 sendok makan minyak zaitun
             - 1 sendok makan cuka apel
-            Garam dan merica secukupnya
+            - Garam dan merica secukupnya
+            
             Cara membuat:
             - Campurkan semua sayuran dalam sebuah mangkuk besar.
             - Tambahkan minyak zaitun, cuka apel, garam, dan merica. Aduk hingga rata.
+            
             7.Oatmeal Pisang
             Bahan:
             - 1/2 cup oatmeal
@@ -369,20 +376,24 @@ if selected == 'Resep Sehat':
             - 1 sendok makan madu
             - 1/2 cup susu almond
             - Secubit kayu manis
+            
             Cara membuat:
             - Rebus oatmeal dalam susu almond hingga matang.
             - Tambahkan pisang dan madu. Aduk rata.
             - Taburi dengan kayu manis sebelum disajikan.
+            
             8.Tumis Buncis
             Bahan:
             - 200 gram buncis, potong-potong
             - 2 siung bawang putih, cincang halus
             - 1 sendok makan minyak sayur
             - Garam dan merica secukupnya
+            
             Cara membuat:
             - Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
             - Masukkan buncis dan tumis hingga matang.
             - Bumbui dengan garam dan merica sesuai selera.
+            
             9. Smoothie Pepaya
             Bahan:
             - 1/2 buah pepaya, buang bijinya dan potong dadu
@@ -390,10 +401,12 @@ if selected == 'Resep Sehat':
             - 1/2 cup yoghurt plain
             - 1/2 cup air
             - Es batu secukupnya
+            
             Cara membuat:
             - Campur semua bahan dalam blender.
             - Blender hingga halus dan konsisten.
             - Sajikan dengan es batu.
+            
             10. Tahu Tumis Bawang Putih
             Bahan:
             - 200 gram tahu, potong dadu
@@ -401,6 +414,7 @@ if selected == 'Resep Sehat':
             - 1 sendok makan saus tiram
             - 1 sendok makan kecap manis
             - Minyak sayur secukupnya untuk menumis
+            
             Cara membuat:
             - Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
             - Masukkan tahu dan tumis hingga matang.
