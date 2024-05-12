@@ -66,9 +66,9 @@ st.markdown('---')
 
 # Sidebar navigation
 with st.sidebar:
-    selected = st.sidebar.selectbox('Menu', ['Perkenalan dan Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif'])
+    selected = st.sidebar.selectbox('Menu', ['Perkenalan', 'Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Resep Sehat'])
 
-if selected == 'Perkenalan dan Penjelasan Singkat':
+if selected == 'Perkenalan Kelompok':
     st.markdown('KELOMPOK 7 (1E-PMIP):')
     st.write('''
     1. Kalisa Khatelya (2320532)
@@ -77,6 +77,7 @@ if selected == 'Perkenalan dan Penjelasan Singkat':
     4. Syifa Aprilya (2320558)
     5. Zikri (2320562)''')
 
+if selected == 'Penjelasan Singkat':
     st.header('💡 Tahukah Anda??', divider='rainbow')
     st.write('''
             Bahwa sama sekali tidak ada kolesterol dalam makanan nabati apa pun, 
@@ -212,6 +213,8 @@ elif selected == 'Menu Interaktif':
             '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
             unsafe_allow_html=True
         )
+    
+if selected == 'Resep Sehat':
     st.subheader('Resep Sehat 🥗')
     st.write('Ingin mencoba resep sehat rendah kolesterol? Lihat resep berikut ini:')
     st.write('- Salad sayur dengan dressing lemon')
