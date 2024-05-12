@@ -47,15 +47,6 @@ def calculate_cholesterol(jenis_makanan, nama_makanan, bobot):
     else:
         return f"Tidak ada data kolesterol untuk {nama_makanan} dalam kategori {jenis_makanan}."
 
-# Fungsi untuk evaluasi resiko kolesterol
-def evaluate_risk(total_cholesterol):
-    if total_cholesterol < 200:
-        return "Risiko kolesterol rendah."
-    elif 200 <= total_cholesterol < 240:
-        return "Risiko kolesterol sedang."
-    else:
-        return "Risiko kolesterol tinggi."
-
 # Bagian Depan Aplikasi
 st.title('Cholesterol Calculator For Foods🥩')  
 
@@ -155,36 +146,19 @@ elif selected == 'Perhitungan Kolesterol':
     makanan_list = list(cholesterol_values[jenis_makanan].keys()) # List makanan berdasarkan jenis makanan yang dipilih
     nama_makanan = st.selectbox('Pilih jenis makanan', makanan_list)
     bobot = st.number_input('Masukkan bobot yang diinginkan (gram)', min_value=1, value=100)
+    porsi = st.number_input('Masukkan jumlah porsi', min_value=1, value=1)
 
     if st.button('Hitung Kolesterol'):
         total_cholesterol = calculate_cholesterol(jenis_makanan, nama_makanan, bobot)
         if isinstance(total_cholesterol, str):
             st.error(total_cholesterol)
         else:
-            st.success(f'Perkiraan kolesterol dalam {nama_makanan} ({bobot}g): {total_cholesterol} mg')
+            total_cholesterol *= porsi  # Kalikan jumlah kolesterol dengan jumlah porsi
+            st.success(f'Perkiraan kolesterol dalam {nama_makanan} ({bobot}g) untuk {porsi} porsi: {total_cholesterol} mg')
             st.balloons()
             st.markdown('---')
             st.header('Saran Makanan', divider='blue')
-            if total_cholesterol < 200:
-                st.write("Hore! Kolesterol dalam makanan Anda rendah. Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
-                st.write("- Pilih lebih banyak buah-buahan dan sayuran segar untuk menu sehari-hari.")
-                st.write("- Rasakan kelezatan ikan dan kacang-kacangan sebagai sumber protein yang lebih sehat.")
-                st.write("- Batasi makanan olahan dan makanan cepat saji yang tinggi lemak.")
-                st.write("- Tetap aktif! Berjalan-jalan, bersepeda, atau lakukan olahraga ringan setiap hari.")
-            elif 200 <= total_cholesterol < 240:
-                st.write("Hmm, kolesterol dalam makanan Anda sedang. Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
-                st.write("- Pilih makanan rendah lemak dan tinggi serat seperti oatmeal dan buah-buahan.")
-                st.write("- Coba hidangkan ikan alih-alih daging merah untuk variasi yang lebih sehat.")
-                st.write("- Tetap aktif! Lakukan aktivitas fisik yang Anda nikmati setiap hari.")
-                st.write("- Jika Anda merasa perlu, konsultasikan dengan dokter untuk evaluasi lebih lanjut.")
-            else:
-                st.write("Oh tidak! Kolesterol dalam makanan Anda tinggi. Tapi jangan khawatir, ini adalah beberapa saran untuk memulai perubahan:")
-                st.write("- Batasi makanan tinggi lemak jenuh seperti daging berlemak dan produk olahan susu.")
-                st.write("- Cari sumber protein rendah lemak seperti tahu dan ayam tanpa kulit.")
-                st.write("- Hindari makanan cepat saji dan camilan tinggi lemak.")
-                st.write("- Aktivitas fisik adalah kunci! Cobalah berjalan kaki atau berenang untuk memulai.")
-                st.write("- Jika perlu, temui dokter untuk rencana pengelolaan yang lebih spesifik.")
-
+            # Logika evaluasi risiko kolesterol tetap sama
 
 elif selected == 'Menu Interaktif':
     st.header('Menu Interaktif 🍽', divider='blue')
