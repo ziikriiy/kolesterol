@@ -74,11 +74,11 @@ if selected == 'Perkenalan':
     st.write('''
     Kelompok 7 merupakan tim mahasiswa Program Studi Penjaminan Mutu Industri Pangan yang berkolaborasi dalam pengembangan aplikasi ini. Berikut adalah anggota tim beserta NIM masing-masing:
     
-    1. **Kalisa Khatelya** (NIM: 2320532) 
-    2. **Nayla Shafa Aulia** (NIM: 2320541) 
-    3. **Selvi Wardayanti** (NIM: 2320555) 
-    4. **Syifa Aprilya** (NIM: 2320558) 
-    5. **Zikri** (NIM: 2320562) 
+    1. Kalisa Khatelya (NIM: 2320532) 
+    2. Nayla Shafa Aulia (NIM: 2320541) 
+    3. Selvi Wardayanti (NIM: 2320555) 
+    4. Syifa Aprilya (NIM: 2320558) 
+    5. Zikri (NIM: 2320562) 
     
     Aplikasi ini dibuat dengan harapan dapat memberikan manfaat bagi pengguna dalam memahami dan mengelola asupan kolesterol mereka, serta mendukung gaya hidup sehat. Kami mengucapkan terima kasih atas dukungan yang diberikan!
     ''')
@@ -101,11 +101,11 @@ if selected == 'Penjelasan Singkat':
                 yang berisiko terkena penyakit jantung harus menjaga konsumsi kolesterol hariannya 
                 sekitar 200 mg
                 
-                Sumber KolesterolKolesterol bisa berasal dari dua sumber utama:
-Makanan: Kolesterol terutama ditemukan dalam makanan hewani, seperti daging, telur, dan produk susu.
-Produksi Tubuh: Hati Anda juga memproduksi kolesterol untuk memenuhi kebutuhan tubuh.
-Pentingnya Mengelola Kolesterol
-Meskipun kolesterol penting bagi tubuh, memiliki kadar kolesterol yang tinggi dalam darah dapat meningkatkan risiko penyakit jantung dan stroke. Oleh karena itu, penting untuk mengelola asupan kolesterol melalui pola makan sehat dan gaya hidup aktif..''')
+                Sumber KolesterolKolesterol bisa berasal dari dua sumber utama yaitu :
+                1. Makanan : Kolesterol terutama ditemukan dalam makanan hewani, seperti daging, telur, dan produk susu.
+                2. Produksi Tubuh : Hati Anda juga memproduksi kolesterol untuk memenuhi kebutuhan tubuh.
+                Meskipun kolesterol penting bagi tubuh, memiliki kadar kolesterol yang tinggi dalam darah dapat meningkatkan risiko penyakit jantung dan stroke. 
+                Oleh karena itu, penting untuk mengelola asupan kolesterol melalui pola makan sehat dan gaya hidup aktif.''')
 
 elif selected == 'Daftar Makanan':
     st.header('🧀🍖Daftar Makanan🍔🥚')
@@ -194,13 +194,13 @@ elif selected == 'Perhitungan Kolesterol':
                 st.write("- Batasi makanan olahan dan makanan cepat saji yang tinggi lemak.")
                 st.write("- Tetap aktif! Berjalan-jalan, bersepeda, atau lakukan olahraga ringan setiap hari.")
             elif 200 <= total_cholesterol < 240:
-                st.write("Hmm, kolesterol dalam makanan Anda sedang. Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
+                st.write("Hmm, kolesterol dalam makanan Anda sedang, tetap dijaga dan jangan makan secara berlebihan ya! Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
                 st.write("- Pilih makanan rendah lemak dan tinggi serat seperti oatmeal dan buah-buahan.")
                 st.write("- Coba hidangkan ikan alih-alih daging merah untuk variasi yang lebih sehat.")
                 st.write("- Tetap aktif! Lakukan aktivitas fisik yang Anda nikmati setiap hari.")
                 st.write("- Jika Anda merasa perlu, konsultasikan dengan dokter untuk evaluasi lebih lanjut.")
             else:
-                st.write("Oh tidak! Kolesterol dalam makanan Anda tinggi. Tapi jangan khawatir, ini adalah beberapa saran untuk memulai perubahan:")
+                st.write("Oh tidak! Kolesterol dalam makanan Anda tinggi, kurangi porsi makanan ini ya! Bahaya loh jika dikonsumsi dalam jumlah yang banyak dengan waktu yang sering. Tapi jangan khawatir, ini adalah beberapa saran untuk membantu mengontrol pola makan Anda:")
                 st.write("- Batasi makanan tinggi lemak jenuh seperti daging berlemak dan produk olahan susu.")
                 st.write("- Cari sumber protein rendah lemak seperti tahu dan ayam tanpa kulit.")
                 st.write("- Hindari makanan cepat saji dan camilan tinggi lemak.")
@@ -211,9 +211,9 @@ elif selected == 'Perhitungan Kolesterol':
 elif selected == 'Menu Interaktif':
     st.header('Menu Interaktif 🍽', divider='blue')
     st.subheader('Tes Pengetahuan 📝')
-    image_path = 'tes pengetahuan.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
-    st.image(image_path, caption='tes pengetahuan kolesterol')
-    st.write('''Yuk, tes pengetahuan tentang kolesterol akan mengasah pengetahuanmu tentang kesehatan! Ayo, kita jelajahi beberapa pertanyaan seru seputar kolesterol!''')
+    image_path = 'tes kecerdasan.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption=' ')
+    st.write('''Yuk, tes pengetahuan tentang kolesterol, ini akan mengasah pengetahuanmu tentang kesehatan! Ayo, kita jelajahi beberapa pertanyaan seru seputar kolesterol!''')
     # Pertanyaan 1
     st.write('1. Apa yang dimaksud dengan kolesterol HDL?')
     answer1 = st.radio('1.', options=['A. Kolesterol Baik', 'B. Kolesterol Jelek', 'C. Kolesterol Total'])
@@ -269,7 +269,11 @@ elif selected == 'Menu Interaktif':
         if answer10 == 'A. Melakukan tes darah':
             score += 1
         st.write(f'Nilai Anda: {score}/10')
-        st.balloons()
+        if score <= 5:
+            st.write('Wah nilai mu cukup kurang, Pelajari lebih banyak lagi ya tentang kolesterol!')
+        else:
+            st.write('Hebat! kamu sudah memiliki pemahaman yang baik tentang kolesterol, terus tingkatkan ya!')
+            st.balloons()
     st.markdown(
             '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
             unsafe_allow_html=True
@@ -280,18 +284,47 @@ if selected == 'Resep Sehat':
     image_path = 'resep sehat.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
     st.image(image_path, caption=' ')
     st.write('Ingin mencoba resep sehat rendah kolesterol? Lihat resep berikut ini:')
-    st.write('- Salad sayur dengan dressing lemon')
-    st.write('- Sosis sapi panggang dengan tumis sayuran')
-    st.write('- Smoothie buah-buahan segar dengan yogurt rendah lemak') 
-    st.write('- Oatmeal dengan potongan buah-buahan segar dan madu')
-    st.write('- Tumis sayuran beragam dengan tambahan bawang putih dan rempah-rempah')
-    st.write('- Sup ayam rendah lemak dengan sayuran')
-    st.write('- Tahu goreng dengan tambahan saus sambal dan irisan mentimun')
-    st.write('- Nasi merah dengan lauk ikan panggang dan sayuran rebus')
-    st.write('- Quinoa salad dengan potongan alpukat dan tomat cherry')
-    st.write('- Smoothie bayam dengan tambahan buah-buahan segar dan yogurt rendah lemak') 
-    st.write('- Brokoli panggang dengan taburan parmesan dan irisan bawang merah')
-    st.write('- Nasi goreng sayuran dengan tambahan telur mata sapi')
-    st.write('- Sandwich gandum dengan potongan daging ayam rebus dan sayuran segar')
-    st.write('- Tumis tahu dengan buncis dan wortel')
-    st.write('- Smoothie mangga dengan tambahan yogurt dan madu')
+    st.markdown('''
+            1. Sayuran Panggang dengan Bumbu Rempah
+            Bahan:
+            - 500 gram sayuran (wortel, kentang, brokoli, paprika)
+            - 2 sendok makan minyak zaitun
+            - 1 sendok teh bawang putih bubuk
+            - 1 sendok teh merica
+            - 1 sendok teh serbuk paprika
+            - Garam secukupnya
+                
+            Cara membuat:
+            - Potong sayuran sesuai selera.
+            - Campurkan sayuran dengan minyak zaitun, bawang putih bubuk, merica, paprika, dan garam dalam mangkuk besar. Aduk hingga sayuran terbalut rata dengan bumbu.
+            - Panggang dalam oven pada suhu 200°C selama 20-25 menit atau hingga sayuran matang dan agak kecokelatan.
+            
+            2. Salad Buah Segar
+            Bahan:
+            - 2 buah apel, potong dadu
+            - 1 buah pir, potong dadu
+            - 1 mangga, potong dadu
+            - 1 jeruk nipis, peras airnya
+            - Madu secukupnya
+            - Daun mint segar (opsional)
+                
+            Cara membuat:
+            - Campurkan semua buah dalam sebuah mangkuk besar.
+            - Peras air jeruk nipis di atas buah-buahan.
+            - Tambahkan madu sesuai selera.
+            - Taburkan daun mint segar untuk penyajian jika diinginkan.
+            
+            3. Puding Chia dengan Buah-buahan
+            Bahan:
+            - 3 sendok makan biji chia
+            - 1 gelas susu almond (atau susu rendah lemak lainnya)
+            - 1 sendok makan madu atau pemanis alami lainnya
+            - Buah-buahan potong (strawberi, blueberry, kiwi)
+                
+            Cara membuat:
+            - Campurkan biji chia, susu almond, dan madu dalam sebuah mangkuk. Aduk rata dan biarkan selama 10 menit.
+            - Aduk kembali campuran tersebut dan biarkan dalam lemari es semalaman atau minimal 4 jam.
+            - Sebelum disajikan, tambahkan potongan buah-buahan di atas puding chia.
+                
+            Makanan ini rendah kolesterol karena bahan utamanya adalah sayuran, buah-buahan, dan tidak menggunakan lemak jenuh atau minyak yang tinggi kolesterol.
+            Selain itu, resep ini juga memperhatikan penggunaan pemanis alami dan minyak sehat.''')
