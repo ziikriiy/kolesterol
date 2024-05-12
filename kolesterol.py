@@ -196,7 +196,8 @@ elif selected == 'Perhitungan Kolesterol':
 
 elif selected == 'Menu Interaktif':
     st.header('Menu Interaktif 🍽', divider='blue')
-
+image_path = 'tes pengetahuan.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption='tes pengetahuan kolesterol')
     st.subheader('Tes Pengetahuan 📝')
     st.write('''Yuk, tes pengetahuan tentang kolesterol akan mengasah pengetahuanmu tentang kesehatan! Ayo, kita jelajahi beberapa pertanyaan seru seputar kolesterol!''')
     st.write('1. Apa yang dimaksud dengan kolesterol HDL?')
