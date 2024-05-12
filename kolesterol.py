@@ -103,6 +103,8 @@ if selected == 'Penjelasan Singkat':
 
 elif selected == 'Daftar Makanan':
     st.header('🧀🍖Daftar Makanan🍔🥚')
+    image_path = 'Kolesterol.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption='daftar makanan')
     st.markdown(
             '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
             unsafe_allow_html=True
