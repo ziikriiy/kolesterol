@@ -66,7 +66,7 @@ st.markdown('---')
 
 # Sidebar navigation
 with st.sidebar:
-    selected = st.sidebar.selectbox('Menu', ['Perkenalan', 'Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Resep Sehat'])
+    selected = st.sidebar.selectbox('Menu', ['Perkenalan Kelompok', 'Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Resep Makanan Sehat'])
 if selected == 'Perkenalan':
     st.header('KELOMPOK 7 (1E-PMIP):')
     image_path = 'kerkom_7.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
