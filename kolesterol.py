@@ -76,6 +76,7 @@ if selected == 'Perkenalan Kelompok':
     4. Syifa Aprilya (2320558)
     5. Zikri (2320562)''')
 
+
 if selected == 'Penjelasan Singkat':
     st.header('💡 Tahukah Anda??', divider='rainbow')
     st.write('''
