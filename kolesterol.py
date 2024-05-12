@@ -327,84 +327,84 @@ if selected == 'Resep Sehat':
             - Sebelum disajikan, tambahkan potongan buah-buahan di atas puding chia.
             4. Sup Sayur Bayam
             Bahan:
-            200 gram bayam segar
-            1 buah wortel, potong dadu kecil
-            1 batang seledri, iris tipis
-            1 liter kaldu sayuran
-            2 siung bawang putih, cincang halus
+            - 200 gram bayam segar
+            - 1 buah wortel, potong dadu kecil
+            - 1 batang seledri, iris tipis
+            - 1 liter kaldu sayuran
+            - 2 siung bawang putih, cincang halus
             Garam dan merica secukupnya
             Cara membuat:
-            Rebus kaldu sayuran hingga mendidih.
-            Tambahkan wortel, seledri, dan bayam. Masak hingga sayuran matang.
-            Bumbui dengan garam dan merica sesuai selera.
+            - Rebus kaldu sayuran hingga mendidih.
+            - Tambahkan wortel, seledri, dan bayam. Masak hingga sayuran matang.
+            - Bumbui dengan garam dan merica sesuai selera.
             5. Tofu Stir-fry
             Bahan:
-            200 gram tahu, potong dadu
-            1 wortel, iris tipis
-            1 paprika, potong dadu
-            100 gram kacang polong
-            2 sendok makan saus tiram
-            1 sendok makan kecap manis
+            - 200 gram tahu, potong dadu
+            - 1 wortel, iris tipis
+            - 1 paprika, potong dadu
+            - 100 gram kacang polong
+            - 2 sendok makan saus tiram
+            - 1 sendok makan kecap manis
             Minyak sayur secukupnya untuk menumis
             Cara membuat:
-            Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
-            Masukkan wortel, paprika, dan kacang polong. Tumis hingga sayuran setengah matang.
-            Tambahkan tahu dan saus tiram. Masak hingga semua bahan tercampur rata.
+            - Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
+            - Masukkan wortel, paprika, dan kacang polong. Tumis hingga sayuran setengah matang.
+            - Tambahkan tahu dan saus tiram. Masak hingga semua bahan tercampur rata.
             6. Salad Sayur Segar
             Bahan:
-            1 wortel, potong julienne
-            1 mentimun, potong dadu
-            1 tomat, potong dadu
-            50 gram kacang polong
-            1 sendok makan minyak zaitun
-            1 sendok makan cuka apel
+            - 1 wortel, potong julienne
+            - 1 mentimun, potong dadu
+            - 1 tomat, potong dadu
+            - 50 gram kacang polong
+            - 1 sendok makan minyak zaitun
+            - 1 sendok makan cuka apel
             Garam dan merica secukupnya
             Cara membuat:
-            Campurkan semua sayuran dalam sebuah mangkuk besar.
-            Tambahkan minyak zaitun, cuka apel, garam, dan merica. Aduk hingga rata.
+            - Campurkan semua sayuran dalam sebuah mangkuk besar.
+            - Tambahkan minyak zaitun, cuka apel, garam, dan merica. Aduk hingga rata.
             7.Oatmeal Pisang
             Bahan:
-            1/2 cup oatmeal
-            1 buah pisang, potong-potong
-            1 sendok makan madu
-            1/2 cup susu almond
-            Secubit kayu manis
+            - 1/2 cup oatmeal
+            - 1 buah pisang, potong-potong
+            - 1 sendok makan madu
+            - 1/2 cup susu almond
+            - Secubit kayu manis
             Cara membuat:
-            Rebus oatmeal dalam susu almond hingga matang.
-            Tambahkan pisang dan madu. Aduk rata.
-            Taburi dengan kayu manis sebelum disajikan.
+            - Rebus oatmeal dalam susu almond hingga matang.
+            - Tambahkan pisang dan madu. Aduk rata.
+            - Taburi dengan kayu manis sebelum disajikan.
             8.Tumis Buncis
             Bahan:
-            200 gram buncis, potong-potong
-            2 siung bawang putih, cincang halus
-            1 sendok makan minyak sayur
-            Garam dan merica secukupnya
+            - 200 gram buncis, potong-potong
+            - 2 siung bawang putih, cincang halus
+            - 1 sendok makan minyak sayur
+            - Garam dan merica secukupnya
             Cara membuat:
-            Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
-            Masukkan buncis dan tumis hingga matang.
-            Bumbui dengan garam dan merica sesuai selera.
+            - Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
+            - Masukkan buncis dan tumis hingga matang.
+            - Bumbui dengan garam dan merica sesuai selera.
             9. Smoothie Pepaya
             Bahan:
-            1/2 buah pepaya, buang bijinya dan potong dadu
-            1 buah pisang
-            1/2 cup yoghurt plain
-            1/2 cup air
-            Es batu secukupnya
+            - 1/2 buah pepaya, buang bijinya dan potong dadu
+            - 1 buah pisang
+            - 1/2 cup yoghurt plain
+            - 1/2 cup air
+            - Es batu secukupnya
             Cara membuat:
-            Campur semua bahan dalam blender.
-            Blender hingga halus dan konsisten.
-            Sajikan dengan es batu.
+            - Campur semua bahan dalam blender.
+            - Blender hingga halus dan konsisten.
+            - Sajikan dengan es batu.
             10. Tahu Tumis Bawang Putih
             Bahan:
-            200 gram tahu, potong dadu
-            4 siung bawang putih, cincang halus
-            1 sendok makan saus tiram
-            1 sendok makan kecap manis
-            Minyak sayur secukupnya untuk menumis
+            - 200 gram tahu, potong dadu
+            - 4 siung bawang putih, cincang halus
+            - 1 sendok makan saus tiram
+            - 1 sendok makan kecap manis
+            - Minyak sayur secukupnya untuk menumis
             Cara membuat:
-            Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
-            Masukkan tahu dan tumis hingga matang.
-            Tambahkan saus tiram dan kecap manis. Aduk hingga rata.
+            - Panaskan minyak dalam wajan. Tumis bawang putih hingga harum.
+            - Masukkan tahu dan tumis hingga matang.
+            - Tambahkan saus tiram dan kecap manis. Aduk hingga rata.
                             
             Makanan ini rendah kolesterol karena bahan utamanya adalah sayuran, buah-buahan, dan tidak menggunakan lemak jenuh atau minyak yang tinggi kolesterol.
             Selain itu, resep ini juga memperhatikan penggunaan pemanis alami dan minyak sehat.''')
