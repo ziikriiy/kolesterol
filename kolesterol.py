@@ -66,6 +66,7 @@ st.markdown('---')
 
 # Sidebar navigation
 with st.sidebar:
+    selected = st.sidebar.selectbox('Menu', ['Perkenalan', 'Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Resep Sehat'])
 if selected == 'Perkenalan':
     st.header('KELOMPOK 7 (1E-PMIP):')
     st.write('''
