@@ -158,7 +158,25 @@ elif selected == 'Perhitungan Kolesterol':
             st.balloons()
             st.markdown('---')
             st.header('Saran Makanan', divider='blue')
-            # Logika evaluasi risiko kolesterol tetap sama
+            if total_cholesterol < 200:
+                st.write("Hore! Kolesterol dalam makanan Anda rendah. Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
+                st.write("- Pilih lebih banyak buah-buahan dan sayuran segar untuk menu sehari-hari.")
+                st.write("- Rasakan kelezatan ikan dan kacang-kacangan sebagai sumber protein yang lebih sehat.")
+                st.write("- Batasi makanan olahan dan makanan cepat saji yang tinggi lemak.")
+                st.write("- Tetap aktif! Berjalan-jalan, bersepeda, atau lakukan olahraga ringan setiap hari.")
+            elif 200 <= total_cholesterol < 240:
+                st.write("Hmm, kolesterol dalam makanan Anda sedang. Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
+                st.write("- Pilih makanan rendah lemak dan tinggi serat seperti oatmeal dan buah-buahan.")
+                st.write("- Coba hidangkan ikan alih-alih daging merah untuk variasi yang lebih sehat.")
+                st.write("- Tetap aktif! Lakukan aktivitas fisik yang Anda nikmati setiap hari.")
+                st.write("- Jika Anda merasa perlu, konsultasikan dengan dokter untuk evaluasi lebih lanjut.")
+            else:
+                st.write("Oh tidak! Kolesterol dalam makanan Anda tinggi. Tapi jangan khawatir, ini adalah beberapa saran untuk memulai perubahan:")
+                st.write("- Batasi makanan tinggi lemak jenuh seperti daging berlemak dan produk olahan susu.")
+                st.write("- Cari sumber protein rendah lemak seperti tahu dan ayam tanpa kulit.")
+                st.write("- Hindari makanan cepat saji dan camilan tinggi lemak.")
+                st.write("- Aktivitas fisik adalah kunci! Cobalah berjalan kaki atau berenang untuk memulai.")
+                st.write("- Jika perlu, temui dokter untuk rencana pengelolaan kolesterol yang sesuai.")
 
 elif selected == 'Menu Interaktif':
     st.header('Menu Interaktif 🍽', divider='blue')
