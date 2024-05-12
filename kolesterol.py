@@ -88,6 +88,8 @@ if selected == 'Perkenalan':
 
 if selected == 'Penjelasan Singkat':
     st.header('💡 Tahukah Anda??', divider='rainbow')
+    image_path = 'makanan berkolesterol.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption='kolesterol')
     st.write('''
             Bahwa sama sekali tidak ada kolesterol dalam makanan nabati apa pun, 
             termasuk sereal, buah-buahan, sayuran, dan biji-bijian? 
