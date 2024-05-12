@@ -171,20 +171,12 @@ elif selected == 'Perhitungan Kolesterol':
                 st.write("- Rasakan kelezatan ikan dan kacang-kacangan sebagai sumber protein yang lebih sehat.")
                 st.write("- Batasi makanan olahan dan makanan cepat saji yang tinggi lemak.")
                 st.write("- Tetap aktif! Berjalan-jalan, bersepeda, atau lakukan olahraga ringan setiap hari.")
-                st.write("- Coba rencana makan sehat dengan memasukkan makanan rendah kolesterol seperti:")
-                st.write("  - Sarapan: Oatmeal dengan buah-buahan segar dan segelas susu rendah lemak.")
-                st.write("  - Makan Siang: Salad sayuran dengan tambahan potongan dada ayam panggang.")
-                st.write("  - Makan Malam: Ikan panggang dengan sayuran panggang.")
             elif 200 <= total_cholesterol < 240:
                 st.write("Hmm, kolesterol dalam makanan Anda sedang. Ini adalah beberapa saran untuk menjaga kesehatan dan mengatur pola makan Anda:")
                 st.write("- Pilih makanan rendah lemak dan tinggi serat seperti oatmeal dan buah-buahan.")
                 st.write("- Coba hidangkan ikan alih-alih daging merah untuk variasi yang lebih sehat.")
                 st.write("- Tetap aktif! Lakukan aktivitas fisik yang Anda nikmati setiap hari.")
                 st.write("- Jika Anda merasa perlu, konsultasikan dengan dokter untuk evaluasi lebih lanjut.")
-                st.write("- Coba rencana makan sehat dengan memasukkan makanan rendah kolesterol seperti:")
-                st.write("  - Sarapan: Smoothie buah-buahan segar dengan tambahan yogurt rendah lemak.")
-                st.write("  - Makan Siang: Sandwich sayuran dengan dada ayam rebus.")
-                st.write("  - Makan Malam: Tumis sayuran dengan tambahan tahu.")
             else:
                 st.write("Oh tidak! Kolesterol dalam makanan Anda tinggi. Tapi jangan khawatir, ini adalah beberapa saran untuk memulai perubahan:")
                 st.write("- Batasi makanan tinggi lemak jenuh seperti daging berlemak dan produk olahan susu.")
@@ -192,11 +184,8 @@ elif selected == 'Perhitungan Kolesterol':
                 st.write("- Hindari makanan cepat saji dan camilan tinggi lemak.")
                 st.write("- Aktivitas fisik adalah kunci! Cobalah berjalan kaki atau berenang untuk memulai.")
                 st.write("- Jika perlu, temui dokter untuk rencana pengelolaan yang lebih spesifik.")
-                st.write("- Coba rencana makan sehat dengan memasukkan makanan rendah kolesterol seperti:")
-                st.write("  - Sarapan: Smoothie bayam dengan tambahan buah-buahan segar.")
-                st.write("  - Makan Siang: Salad sayuran dengan tambahan potongan ikan panggang.")
-                st.write("  - Makan Malam: Tumis sayuran dengan tambahan tahu dan potongan dada ayam.")
-                
+
+
 elif selected == 'Menu Interaktif':
     st.header('Menu Interaktif 🍽', divider='blue')
 
@@ -228,3 +217,15 @@ elif selected == 'Menu Interaktif':
     st.write('- Salad sayur dengan dressing lemon')
     st.write('- Sosis sapi panggang dengan tumis sayuran')
     st.write('- Smoothie buah-buahan segar dengan yogurt rendah lemak') 
+    st.write('- Oatmeal dengan potongan buah-buahan segar dan madu')
+    st.write('- Tumis sayuran beragam dengan tambahan bawang putih dan rempah-rempah')
+    st.write('- Sup ayam rendah lemak dengan sayuran')
+    st.write('- Tahu goreng dengan tambahan saus sambal dan irisan mentimun')
+    st.write('- Nasi merah dengan lauk ikan panggang dan sayuran rebus')
+    st.write('- Quinoa salad dengan potongan alpukat dan tomat cherry')
+    st.write('- Smoothie bayam dengan tambahan buah-buahan segar dan yogurt rendah lemak') 
+    st.write('- Brokoli panggang dengan taburan parmesan dan irisan bawang merah')
+    st.write('- Nasi goreng sayuran dengan tambahan telur mata sapi')
+    st.write('- Sandwich gandum dengan potongan daging ayam rebus dan sayuran segar')
+    st.write('- Tumis tahu dengan buncis dan wortel')
+    st.write('- Smoothie mangga dengan tambahan yogurt dan madu')
