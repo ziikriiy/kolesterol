@@ -375,7 +375,7 @@ if selected == 'Resep Sehat':
             - Campurkan semua sayuran dalam sebuah mangkuk besar.
             - Tambahkan minyak zaitun, cuka apel, garam, dan merica. Aduk hingga rata.
             
-            7.Oatmeal Pisang
+            7. Oatmeal Pisang
             
             Bahan:
             - 1/2 cup oatmeal
@@ -389,7 +389,7 @@ if selected == 'Resep Sehat':
             - Tambahkan pisang dan madu. Aduk rata.
             - Taburi dengan kayu manis sebelum disajikan.
             
-            8.Tumis Buncis
+            8. Tumis Buncis
             
             Bahan:
             - 200 gram buncis, potong-potong
