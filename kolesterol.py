@@ -163,6 +163,8 @@ elif selected == 'Daftar Makanan':
 
 elif selected == 'Perhitungan Kolesterol':
     st.header('Perhitungan Kolesterol Dalam Makanan🧮🍳', divider='red')
+    image_path = 'makanan.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption=' makanan')
     st.markdown('Nah, di sini Anda dapat memilih jenis bahan pangan, jenis makanan, serta bobot yang ingin Anda ketahui jumlah kolesterolnya dalam makanan tersebut.')
     st.markdown('---')
     jenis_makanan = st.selectbox('Pilih Jenis Bahan Pangan', list(cholesterol_values.keys()))
