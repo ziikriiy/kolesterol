@@ -67,7 +67,7 @@ st.markdown('---')
 # Sidebar navigation
 with st.sidebar:
     selected = st.sidebar.selectbox('Menu', ['Perkenalan', 'Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Resep Sehat'])
-if selected == 'Perkenalan Kelompok':
+if selected == 'Perkenalan':
     st.header('KELOMPOK 7 (1E-PMIP):')
     st.write('''
     Kelompok 7 merupakan tim mahasiswa Program Studi ... yang berkolaborasi dalam pengembangan aplikasi ini. Berikut adalah anggota tim beserta NIM masing-masing:
@@ -80,6 +80,7 @@ if selected == 'Perkenalan Kelompok':
     
     Aplikasi ini dibuat dengan harapan dapat memberikan manfaat bagi pengguna dalam memahami dan mengelola asupan kolesterol mereka, serta mendukung gaya hidup sehat. Kami mengucapkan terima kasih atas dukungan yang diberikan!
     ''')
+
 
 
 
