@@ -66,7 +66,7 @@ st.markdown('---')
 
 # Sidebar navigation
 with st.sidebar:
-    selected = st.sidebar.selectbox('Menu', ['Perkenalan dan Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif'])
+    selected = st.sidebar.selectbox('Menu', ['Perkenalan','Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Menu Singkat'])
 
 if selected == 'Perkenalan dan Penjelasan Singkat':
     image_path = 'kerkom_7.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
@@ -78,6 +78,13 @@ if selected == 'Perkenalan dan Penjelasan Singkat':
     3. Selvi Wardayanti (2320555)
     4. Syifa Aprilya (2320558)
     5. Zikri (2320562)''')
+
+
+st.markdown('''Cholesterol Calculator For Foods digunakan untuk menyajikan tabel makanan beserta jumlah kolesterol, menghitung kandungan kolesterol berdasarkan bobot makanan,
+             serta memberikan saran makanan sehat.
+            ☆: .｡. o(≧▽≦)o .｡.:☆''')
+st.markdown('---')
+
 
     st.header('💡 Tahukah Anda??', divider='rainbow')
     st.write('''
@@ -214,6 +221,7 @@ elif selected == 'Menu Interaktif':
             '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
             unsafe_allow_html=True
         )
+    
     st.subheader('Resep Sehat 🥗')
     st.write('Ingin mencoba resep sehat rendah kolesterol? Lihat resep berikut ini:')
     st.write('- Salad sayur dengan dressing lemon')
