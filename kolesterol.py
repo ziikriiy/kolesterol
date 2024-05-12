@@ -68,7 +68,7 @@ st.markdown('---')
 with st.sidebar:
     selected = st.sidebar.selectbox('Menu', ['Perkenalan', 'Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif','Resep Sehat'])
 if selected == 'Perkenalan Kelompok':
-    st.markdown('KELOMPOK 7 (1E-PMIP):')
+    st.header('KELOMPOK 7 (1E-PMIP):')
     st.write('''
     1. Kalisa Khatelya (2320532)
     2. Nayla Shafa Aulia (2320541)
