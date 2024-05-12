@@ -69,6 +69,8 @@ with st.sidebar:
     selected = st.sidebar.selectbox('Menu', ['Perkenalan dan Penjelasan Singkat', 'Daftar Makanan', 'Perhitungan Kolesterol', 'Menu Interaktif'])
 
 if selected == 'Perkenalan dan Penjelasan Singkat':
+    image_path = 'kerkom_7.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption='dokumentasi kerkom 7')
     st.markdown('KELOMPOK 7 (1E-PMIP):')
     st.write('''
     1. Kalisa Khatelya (2320532)
