@@ -286,6 +286,7 @@ if selected == 'Resep Sehat':
     st.write('Ingin mencoba resep sehat rendah kolesterol? Lihat resep berikut ini:')
     st.markdown('''
             1. Sayuran Panggang dengan Bumbu Rempah
+            
             Bahan:
             - 500 gram sayuran (wortel, kentang, brokoli, paprika)
             - 2 sendok makan minyak zaitun
@@ -300,6 +301,7 @@ if selected == 'Resep Sehat':
             - Panggang dalam oven pada suhu 200°C selama 20-25 menit atau hingga sayuran matang dan agak kecokelatan.
             
             2. Salad Buah Segar
+            
             Bahan:
             - 2 buah apel, potong dadu
             - 1 buah pir, potong dadu
@@ -315,6 +317,7 @@ if selected == 'Resep Sehat':
             - Taburkan daun mint segar untuk penyajian jika diinginkan.
             
             3. Puding Chia dengan Buah-buahan
+            
             Bahan:
             - 3 sendok makan biji chia
             - 1 gelas susu almond (atau susu rendah lemak lainnya)
@@ -327,6 +330,7 @@ if selected == 'Resep Sehat':
             - Sebelum disajikan, tambahkan potongan buah-buahan di atas puding chia.
             
             4. Sup Sayur Bayam
+            
             Bahan:
             - 200 gram bayam segar
             - 1 buah wortel, potong dadu kecil
@@ -341,6 +345,7 @@ if selected == 'Resep Sehat':
             - Bumbui dengan garam dan merica sesuai selera.
             
             5. Tofu Stir-fry
+            
             Bahan:
             - 200 gram tahu, potong dadu
             - 1 wortel, iris tipis
@@ -356,6 +361,7 @@ if selected == 'Resep Sehat':
             - Tambahkan tahu dan saus tiram. Masak hingga semua bahan tercampur rata.
             
             6. Salad Sayur Segar
+            
             Bahan:
             - 1 wortel, potong julienne
             - 1 mentimun, potong dadu
@@ -370,6 +376,7 @@ if selected == 'Resep Sehat':
             - Tambahkan minyak zaitun, cuka apel, garam, dan merica. Aduk hingga rata.
             
             7.Oatmeal Pisang
+            
             Bahan:
             - 1/2 cup oatmeal
             - 1 buah pisang, potong-potong
@@ -383,6 +390,7 @@ if selected == 'Resep Sehat':
             - Taburi dengan kayu manis sebelum disajikan.
             
             8.Tumis Buncis
+            
             Bahan:
             - 200 gram buncis, potong-potong
             - 2 siung bawang putih, cincang halus
@@ -395,6 +403,7 @@ if selected == 'Resep Sehat':
             - Bumbui dengan garam dan merica sesuai selera.
             
             9. Smoothie Pepaya
+            
             Bahan:
             - 1/2 buah pepaya, buang bijinya dan potong dadu
             - 1 buah pisang
@@ -408,6 +417,7 @@ if selected == 'Resep Sehat':
             - Sajikan dengan es batu.
             
             10. Tahu Tumis Bawang Putih
+            
             Bahan:
             - 200 gram tahu, potong dadu
             - 4 siung bawang putih, cincang halus
