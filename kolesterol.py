@@ -99,7 +99,13 @@ if selected == 'Penjelasan Singkat':
                 banyak kolesterol dalam makanan yang kita makan. Dengan kalkulator kolesterol ini, 
                 kita dapat dengan cepat menentukan asupan kolesterol harian dan melacaknya. Seseorang 
                 yang berisiko terkena penyakit jantung harus menjaga konsumsi kolesterol hariannya 
-                sekitar 200 mg.''')
+                sekitar 200 mg
+                
+                Sumber KolesterolKolesterol bisa berasal dari dua sumber utama:
+Makanan: Kolesterol terutama ditemukan dalam makanan hewani, seperti daging, telur, dan produk susu.
+Produksi Tubuh: Hati Anda juga memproduksi kolesterol untuk memenuhi kebutuhan tubuh.
+Pentingnya Mengelola Kolesterol
+Meskipun kolesterol penting bagi tubuh, memiliki kadar kolesterol yang tinggi dalam darah dapat meningkatkan risiko penyakit jantung dan stroke. Oleh karena itu, penting untuk mengelola asupan kolesterol melalui pola makan sehat dan gaya hidup aktif..''')
 
 elif selected == 'Daftar Makanan':
     st.header('🧀🍖Daftar Makanan🍔🥚')
