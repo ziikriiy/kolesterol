@@ -279,7 +279,7 @@ elif selected == 'Menu Interaktif':
             unsafe_allow_html=True
         )
     
-if selected == 'Resep Sehat':
+if selected == 'Resep Makanan Sehat':
     st.subheader('Resep Makanan Sehat 🥗')
     image_path = 'resep sehat.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
     st.image(image_path, caption=' ')
