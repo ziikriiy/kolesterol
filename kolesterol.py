@@ -283,7 +283,7 @@ if selected == 'Resep Makanan Sehat':
     st.subheader('Resep Makanan Sehat 🥗')
     image_path = 'resep sehat.jpg'  # Ganti dengan path yang sesuai ke file gambar Anda
     st.image(image_path, caption=' ')
-    st.write('Ingin mencoba resep sehat Makanan rendah kolesterol? Lihat resep berikut ini:')
+    st.write('Ingin mencoba resep makanan sehat rendah kolesterol? Lihat resep berikut ini:')
     st.markdown('''
             1. Sayuran Panggang dengan Bumbu Rempah
             
